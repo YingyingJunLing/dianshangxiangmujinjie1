@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/yj"
+            android:text="圆角"
+            />
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/yx"
+            android:text="圆形"
+            />
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bl"
+            android:text="比例1:2"
+            />
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/jjs"
+            android:text="渐进式"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cphc"
+            android:text="磁盘缓存"
+            />
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/jzdt"
+            android:text="加载动图"
+            />
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/jzjt"
+            android:text="加载监听"
+            />
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pz"
+            android:text="配置okhttp"
+            />
+    </LinearLayout>
+
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/img"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        fresco:placeholderImage="@drawable/b"
+        />
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        fresco:viewAspectRatio="2.335"
+        fresco:placeholderImage="@drawable/b"
+        />
+
+</LinearLayout>
