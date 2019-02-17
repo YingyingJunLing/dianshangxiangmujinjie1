@@ -1,1 +1,1 @@
-include ':app', ':day1_test', ':fanshe', ':app_2', ':eventbus', ':app_3', ':day3_test', ':greendao', ':week1_moni'
+include ':app', ':day1_test', ':fanshe', ':app_2', ':eventbus', ':app_3', ':day3_test', ':greendao', ':week1_moni', ':week'
