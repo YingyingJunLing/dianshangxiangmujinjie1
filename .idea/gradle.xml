@@ -9,6 +9,14 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app_2" />
+            <option value="$PROJECT_DIR$/app_3" />
+            <option value="$PROJECT_DIR$/day1_test" />
+            <option value="$PROJECT_DIR$/day3_test" />
+            <option value="$PROJECT_DIR$/eventbus" />
+            <option value="$PROJECT_DIR$/fanshe" />
+            <option value="$PROJECT_DIR$/greendao" />
+            <option value="$PROJECT_DIR$/week1_moni" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
